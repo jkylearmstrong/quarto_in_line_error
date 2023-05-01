@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "hhh",
     "section": "",
-    "text": "Preface\nThese notes have been developed with:\n\nR version r paste(R.version$major, R.version$minor, sep='.')\nRStudio version 2023.03.0+386\nQuarto version r quarto::quarto_version()\n\nR, RStudio, and Quarto are all free to download and use. You can learn more about both R and RStudio and download them both from https://posit.co/download/rstudio-desktop/.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
+    "text": "Preface\nThese notes have been developed with:\n\nR version 4.3.0\nRStudio version 2023.03.0+386\nQuarto version 1.4.11\n\nR, RStudio, and Quarto are all free to download and use. You can learn more about both R and RStudio and download them both from https://posit.co/download/rstudio-desktop/.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\npaste(R.version$major, R.version$minor, sep='.')\n\n[1] \"4.3.0\"\n\n\n\n#RStudio.Version()$long_version\n\n\nquarto::quarto_version()\n\n[1] '1.4.11'"
   },
   {
     "objectID": "summary.html",

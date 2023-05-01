@@ -9,3 +9,15 @@ These notes have been developed with:
 R, RStudio, and Quarto are all free to download and use. You can learn more about both R and RStudio and download them both from <https://posit.co/download/rstudio-desktop/>.
 
 To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+```{r}
+paste(R.version$major, R.version$minor, sep='.')
+```
+
+```{r}
+#RStudio.Version()$long_version
+```
+
+```{r}
+quarto::quarto_version()
+```
