@@ -1,0 +1,31 @@
+engine: knitr
+
+project:
+  type: book
+
+book:
+  title: "fancy title"
+author: "me"
+date: today
+date-format: long
+reader-mode: true
+
+  chapters:
+    - index.qmd
+    
+format:
+  html:
+    theme: cosmo
+    lof: true
+    lot: true
+    code-link: true
+    toc: true
+    toc-depth: 5
+    author-meta: "J Kyle Armstrong"
+    prefer-html: true
+    number-sections: true
+
+crossref:
+  chapters: true
+  lof-title: "List of Figures"
+  lot-title: "List of Tables"

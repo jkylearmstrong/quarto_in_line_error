@@ -1,0 +1,11 @@
+# Preface {.unnumbered}
+
+These notes have been developed with: 
+
+-   R version `r paste(R.version$major, R.version$minor, sep='.')`
+-   RStudio version 2023.03.0+386
+-   Quarto version `r quarto::quarto_version()`
+
+R, RStudio, and Quarto are all free to download and use. You can learn more about both R and RStudio and download them both from <https://posit.co/download/rstudio-desktop/>.
+
+To learn more about Quarto books visit <https://quarto.org/docs/books>.
